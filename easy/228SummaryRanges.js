@@ -13,7 +13,7 @@ var summaryRanges = function(nums) {
             end=nums[j];
         }
         if(nums[i]==end){
-            string.push(end);
+            string.push(end.toString());
              
         }else{
             string.push(nums[i]+'->'+end);
